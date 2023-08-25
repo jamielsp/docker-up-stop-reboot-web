@@ -10,7 +10,7 @@ def generate_unique_container_name():
 
 # Variable para almacenar el nombre del contenedor actual
 current_container_name = ""
-current_image_id = "8fa82f0eb8d9"  # Cambia esto a la imagen que deseas usar
+current_image_id = "image id con la que vas a interactuar"  # Cambia esto a la imagen que deseas usar
 
 def find_available_port():
     while True:
