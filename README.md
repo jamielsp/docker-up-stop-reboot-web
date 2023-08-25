@@ -6,6 +6,7 @@ Este proyecto ha sido creado con el fin de educar a todas las personas que quier
 --------------------------
 
 ## Docker y docker compose 
+### Docker
 1. Update the apt package index and install packages to allow apt to use a repository over HTTPS:
 ```bash
 sudo apt-get update
@@ -36,3 +37,24 @@ sudo apt-get update
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+### Docker compose
+1. Update the package index, and install the latest version of Docker Compose:
+ - For Ubuntu and Debian, run:
+```bash
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
+```
+- For Ubuntu and Debian, run:
+```bash
+sudo yum update
+sudo yum install docker-compose-plugin
+```
+
+2. Verify that Docker Compose is installed correctly by checking the version.
+```bash
+docker compose version
+Docker Compose version vN.N.N
+```
+
+
+
