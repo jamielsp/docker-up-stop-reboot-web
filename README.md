@@ -5,6 +5,16 @@ Este proyecto ha sido creado con el fin de educar a todas las personas que quier
 # Requisitos
 --------------------------
 
+## Python3, pip, flask
+1. Instalaremos python3 y pip con el siguiente comando:
+```bash
+apt-get install python3 python3-pip
+```
+2. Instalamos flask:
+```bash
+pip install flask
+```
+
 ##Docker y docker compose 
 ###Docker
 1. Update the apt package index and install packages to allow apt to use a repository over HTTPS:
