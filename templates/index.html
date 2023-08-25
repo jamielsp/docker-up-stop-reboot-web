@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Control de Contenedor</title>
+    <style>
+        /* Estilos aquí... */
+    </style>
+    <script>
+        function performAction(action) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', action, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Actualizar contenido de la página con la respuesta
+                    document.getElementById('status').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</head>
+<body>
+    <h1>Control de Contenedor Docker</h1>
+
+    <div class="button-container">
+        <button class="button" onclick="performAction('/start_container')">Iniciar Contenedor</button>
+        <button class="button" onclick="performAction('/stop_container')">Detener Contenedor</button>
+        <button class="button" onclick="performAction('/restart_container')">Reiniciar Contenedor</button>
+        <button class="button" onclick="performAction('/remove_and_create_container')">Eliminar y Crear Contenedor Nuevo</button>
+    </div>
+
+    <div id="status"></div> <!-- Aquí se mostrará el resultado de las acciones -->
+</body>
+</html>
