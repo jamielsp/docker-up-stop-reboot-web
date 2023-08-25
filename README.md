@@ -54,7 +54,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo apt-get update
 sudo apt-get install docker-compose-plugin
 ```
-- For Ubuntu and Debian, run:
+- For RPM-based distros, run:
 ```bash
 sudo yum update
 sudo yum install docker-compose-plugin
