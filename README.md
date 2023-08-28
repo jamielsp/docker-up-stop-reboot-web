@@ -1,7 +1,7 @@
 # Propósito
 
 ------------------------
-Este proyecto ha sido creado con el fin de educar a todas las personas que quieran saber y experimentar como manegar contenedores desde la web. He creado un codigo en python y HTML que me permite iniciar, parar, reinicier y eliminar un contenedor en específico. 
+Este proyecto ha sido creado con el fin de educar a todas las personas que quieran saber y experimentar como manegar contenedores desde la web. He creado un codigo en python y HTML que me permite iniciar, parar, reiniciar y eliminar un contenedor en específico. 
 
 # Requisitos
 --------------------------
